@@ -52,4 +52,4 @@ if __name__ == "__main__":
       # Creación del interfaz gráfico...
       advertencia_boton = tk.Button(ventana, text="Advertencia", command=advertencia)
       advertencia_boton.pack()
-      autorizar_boton  -tk.Button-(Ventanacute.text-"Autorizar"-comandorequeri-/autoriizaclón-
+     autorizar_boton = tk.Button(ventana, text="Autorizar", command=requerir_autorizacion)
