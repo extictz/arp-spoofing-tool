@@ -71,13 +71,13 @@ def iniciar_spoofing():
 def detener_spoofing():
     global ataque_en_curso
     ataque_en_curso = False  
-    widget_salida.insert(tk.END, "Ataque cancelado.\n")
+    widget_salida.insert(tk.END, "Se ha detenido el ataque.\n")
     widget_salida.see(tk.END)  
 
 ventana = tk.Tk()
-ventana.title("Herramienta de ARP Spoofing")
+ventana.title("Herramienta de ARP Spoofing by extictz")
 
-tk.Label(ventana, text="Ingrese la IP objetivo:").pack(pady=5)
+tk.Label(ventana, text="Tu objetivo a atacar:").pack(pady=5)
 entrada_ip = tk.Entry(ventana, width=30)
 entrada_ip.pack(pady=5)
 
